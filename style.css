@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+body {
+  font-family: "League Spartan", sans-serif;
+  color: hsl(303, 10%, 53%);
+  font-size: 15px;
+}
+main {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 55rem; /* will reduce/increase later*/
+}
+.hero-section h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  line-height: 0.8em;
+  margin-bottom: 1.5rem;
+}
+.hero-section p {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+.rating-section {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.stars-rates {
+  background-color: hsl(300, 24%, 96%);
+  width: 100%;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+}
+.star {
+  color: orange;
+}
+.rate {
+  color: hsl(300, 43%, 22%);
+  font-weight: 500;
+}
